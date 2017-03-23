@@ -44,6 +44,7 @@ public class ButtonActivity extends AppCompatActivity {
         String text = button.getText().toString();
         showToast(mPlantillaMensajeBoton ,text);
     }
+
     public void muestraTextCheckBox(View clickedButton) {
         CheckBox button = (CheckBox) clickedButton;
         String text = button.getText().toString();
@@ -61,26 +62,27 @@ public class ButtonActivity extends AppCompatActivity {
         showToast(mPlantillaMensajeradiobutton ,text);
         selectRadiobutton = getString(R.string.select_after) + text;
     }
+
     public void muestraInfoImageButton (View clickedImageButton){
         ImageButton img = (ImageButton)clickedImageButton;
-        String select = img.getTag().toString();
+        int select = img.getId();
         switch (select){
-            case "1":
+            case R.id.android_plataform:
                 muestraInfoImageButton(R.string.info_imagebutton_1);
                 break;
-            case "2":
+            case R.id.camera_phone:
                 muestraInfoImageButton(R.string.info_imagebutton_2);
                 break;
-            case "3":
+            case R.id.gps:
                 muestraInfoImageButton(R.string.info_imagebutton_3);
                 break;
-            case "4":
+            case R.id.button_android:
                 muestraInfoImageButton(R.string.info_imagebutton_4);
                 break;
-            case "5":
+            case R.id.button_dialog:
                 muestraInfoImageButton(R.string.info_imagebutton_5);
                 break;
-            case "6":
+            case R.id.button_rating_star:
                 muestraInfoImageButton(R.string.info_imagebutton_6);
                 break;
         }

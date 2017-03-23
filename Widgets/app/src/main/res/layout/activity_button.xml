@@ -49,18 +49,21 @@
             android:text="@string/imageButtonA" />
 
         <ImageButton
+            android:id="@+id/android_plataform"
             android:src="@drawable/android_platform"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="muestraInfoImageButton"
             android:tag="1"/>
         <ImageButton
+            android:id="@+id/camera_phone"
             android:src="@drawable/camera_phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="muestraInfoImageButton"
             android:tag="2"/>
         <ImageButton
+            android:id="@+id/gps"
             android:src="@drawable/gps"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -81,18 +84,21 @@
 
 
         <ImageButton
+            android:id="@+id/button_android"
             android:src="@drawable/button_android"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="muestraInfoImageButton"
             android:tag="4"/>
         <ImageButton
+            android:id="@+id/button_dialog"
             android:src="@drawable/button_dialog"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="muestraInfoImageButton"
             android:tag="5"/>
         <ImageButton
+            android:id="@+id/button_rating_star"
             android:src="@drawable/button_rating_star"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
