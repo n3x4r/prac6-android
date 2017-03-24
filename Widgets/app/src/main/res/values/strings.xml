@@ -67,5 +67,9 @@
     <string name="plantilla_mensaje_spinner">Has seleccionado \'%s\'.</string>
     <string name="prompt_spinner2">Fabricantes potenciales Android  (Opciones de Java)</string>
 
+
+    <!-- buttons example -->
+    <string name="listView">Mostrar ListView</string>
+    <string name="gridView">Mostrar GridView</string>
 </resources>
 
