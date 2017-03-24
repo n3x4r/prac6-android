@@ -37,7 +37,7 @@
 
     <!-- Plantillas -->
     <string name="plantilla_mensaje_nuevaseleccion"> Has seleccionado el RadioButton \'%s\' </string>
-    <string name= "plantilla_mensaje_togglebutton_simple"> Has clicado el ToggleButton \'%s\' </string>
+    <string name="plantilla_mensaje_togglebutton_simple"> Has clicado el ToggleButton \'%s\' </string>
 
 
     <!-- ToogleButtons -->
@@ -66,6 +66,12 @@
     </string-array>
     <string name="plantilla_mensaje_spinner">Has seleccionado \'%s\'.</string>
     <string name="prompt_spinner2">Fabricantes potenciales Android  (Opciones de Java)</string>
+
+
+    <!-- buttons example -->
+    <string name="listView">Muesta ListView</string>
+    <string name="gridView">Muesta GridView</string>
+
 
 </resources>
 

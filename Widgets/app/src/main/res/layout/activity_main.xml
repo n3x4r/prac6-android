@@ -13,4 +13,17 @@
         android:layout_width="match_parent"
         android:text="@string/Etiqueta_muestraspinners"
         android:onClick="muestraSpinners"/>
+    <Button
+        android:id="@+id/buttonListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/listView"
+        android:onClick="startnewActivity"/>
+    <Button
+        android:id="@+id/buttonGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gridView"
+        android:onClick="startnewActivity"/>
+
 </LinearLayout>

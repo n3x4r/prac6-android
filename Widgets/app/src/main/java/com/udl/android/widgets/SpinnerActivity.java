@@ -1,11 +1,14 @@
 package com.udl.android.widgets;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.Switch;
 import android.widget.Toast;
 
 import java.util.Arrays;
@@ -31,7 +34,9 @@ public class SpinnerActivity extends AppCompatActivity {
         spinner2Adapter.setDropDownViewResource(android.R.layout.simple_spinner_item);
         spinner2.setAdapter(spinner2Adapter);
         spinner2.setOnItemSelectedListener(new SpinnerInfo());
+
     }
+
 
     private void showToast(String text) {
         Toast.makeText(this, text, Toast.LENGTH_LONG).show();
