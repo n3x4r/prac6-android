@@ -20,6 +20,10 @@
         </activity>
         <activity android:name=".SpinnerActivity">
         </activity>
+        <activity android:name=".list_view_item">
+        </activity>
+        <activity android:name=".list_grid_view">
+        </activity>
     </application>
 
 </manifest>

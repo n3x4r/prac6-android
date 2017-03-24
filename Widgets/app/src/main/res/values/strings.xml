@@ -37,7 +37,7 @@
 
     <!-- Plantillas -->
     <string name="plantilla_mensaje_nuevaseleccion"> Has seleccionado el RadioButton \'%s\' </string>
-    <string name= "plantilla_mensaje_togglebutton_simple"> Has clicado el ToggleButton \'%s\' </string>
+    <string name="plantilla_mensaje_togglebutton_simple"> Has clicado el ToggleButton \'%s\' </string>
 
 
     <!-- ToogleButtons -->
@@ -69,7 +69,9 @@
 
 
     <!-- buttons example -->
+
     <string name="listView">Mostrar ListView</string>
     <string name="gridView">Mostrar GridView</string>
+
 </resources>
 

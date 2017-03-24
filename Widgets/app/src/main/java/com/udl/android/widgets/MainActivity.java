@@ -24,4 +24,19 @@ public class MainActivity extends AppCompatActivity {
         Intent in = new Intent(this, SpinnerActivity.class);
         startActivity(in);
     }
+
+    public void startnewActivity (View viewbutton){
+        int id = viewbutton.getId();
+        Intent intent;
+        switch (id){
+            case R.id.buttonListView:
+                intent = new Intent(this, list_view_item.class);
+                startActivity(intent);
+                break;
+            case R.id.buttonGridView:
+                intent = new Intent(this, list_grid_view.class);
+                startActivity(intent);
+                break;
+        }
+    }
 }
