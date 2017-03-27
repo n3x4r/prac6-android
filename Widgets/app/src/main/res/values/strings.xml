@@ -64,6 +64,17 @@
         <item>T-Mobile</item>
         <item>Neptune</item>
     </string-array>
+
+    <string-array name="grid_view">
+        <item>Dell</item>
+        <item>HP</item>
+        <item>Samsung</item>
+        <item>Sony Ericsson</item>
+        <item>Motorola</item>
+        <item>Huawei</item>
+        <item>T-Mobile</item>
+        <item>HTC</item>
+    </string-array>
     <string name="plantilla_mensaje_spinner">Has seleccionado \'%s\'.</string>
     <string name="prompt_spinner2">Fabricantes potenciales Android  (Opciones de Java)</string>
 

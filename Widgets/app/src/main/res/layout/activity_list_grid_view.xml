@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.udl.android.widgets.list_grid_view">
+    tools:context="com.udl.android.widgets.list_grid_view"
+    android:padding="10dp">
 
     <TextView
+        android:id="@+id/text_grid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/listView"/>
+        android:text="@string/gridView"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textStyle="bold|italic"
+        />
 
     <GridView
+        android:layout_below="@id/text_grid"
         android:id="@+id/gridview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,4 +30,4 @@
         android:stretchMode="columnWidth" />
 
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.udl.android.widgets.list_view_item">
+    tools:context="com.udl.android.widgets.list_view_item"
+    android:padding="10dp">
 
     <TextView
-        android:id="@+id/Title"
+        android:id="@+id/title_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textStyle="bold|italic"
         android:text="@string/prompt_spinner2"/>
 
     <ListView
+        android:layout_below="@id/title_list"
         android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,4 +26,4 @@
 
 
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
